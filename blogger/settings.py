@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'localhost', '127.0.0.1', '8000-arch111arch-blogger-ci8sbojzamk.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'localhost', '127.0.0.1', '8000-arch111arch-blogger-1mbwi5d87b8.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -66,6 +66,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'blogger.urls'
