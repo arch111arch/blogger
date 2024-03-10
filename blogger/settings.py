@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'localhost', '127.0.0.1', '8000-arch111arch-blogger-ci8sbojzamk.ws-eu108.gitpod.io']
 
 
 # Application definition
