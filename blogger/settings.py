@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'localhost', '127.0.0.1', '8000-arch111arch-blogger-1mbwi5d87b8.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['blogger2024.herokuapp.com', 'https://blogger2024-1fa87ecae9c7.herokuapp.com/', '.herokuapp.com' ,'localhost', '127.0.0.1', '8000-arch111arch-blogger-1mbwi5d87b8.ws-eu108.gitpod.io']
 
 
 # Application definition
